@@ -9,6 +9,7 @@ filename = "$1"
 
 if [ $# -eq 0 ]; then 
     echo "No filename provided"
-fi
-
-wc -l "$filename"
+elif [ ! -e "$filename" ]; then
+    echo "File not found"
+else
+    wc -l < "$filename"
