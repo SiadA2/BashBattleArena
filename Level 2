@@ -4,8 +4,7 @@ line.
 
 #Here is the solution:
 
-for number in $(seq 1 10)
-do
+for number in $(seq 1 10); do
     echo "Number: $number"
 
 done
