@@ -12,7 +12,7 @@ mkdir Archive
 cd battlefield
 touch knight.txt sorcerer.txt rogue.txt
 
-if [ -f "battlefield/knight.txt ]; then
+if [ -e "Battlefield/knight.txt ]; then
     mv battlefield/knight.txt Archive
 fi
 
