@@ -1,0 +1,6 @@
+#In this level, we are asked to create a script
+which passes a filename as an argument and outputs
+the number of lines it has. If no argument is passed, 
+then the script must return "No filename provided"
+
+#Here is the solution
